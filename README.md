@@ -1,5 +1,7 @@
 # AI theory with some of my Laegna mathematical ideas
 
+I asked an AI also to create one [intro](aiintro.md) based on my article.
+
 This is not hard to provide the basics of an AI in simpler manner, where I don't like that the complexity of texts I used myself, and videos, made many conceptions longer and more complex by involving hard math and complicated ideas.
 
 I mix my own text by generations of an AI to continue each topic with the words I use here, giving it also the text from beginning to end.

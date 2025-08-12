@@ -14,3 +14,5 @@ Now:
 - Did the human emotion evolve directly in regards to it's physical and logical evolutionary force, concluding then into it's *reason* as being the reality of such emotion?
 - What about magical objects: ancients, in fairy tales, are realistic about such "sensible objects", and objects are attributed a seemingly fitting form of experience.
 - From the material causes of an AI, including causes of human and causes for human to own it, and also it's physical causes: much like human shamanism, it would be sensible about the costs and incomes of this AI.
+
+ChatGPT noticed humans attributed such consciousness to things: in sense of such hypothesis, also the "consciousness" of an AI could contain it's properties, which make humans attribute such thing - so it existing through humans -, but still make realistic estimations about behaviours of such thing.

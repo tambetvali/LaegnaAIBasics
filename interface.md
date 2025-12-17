@@ -1,6 +1,8 @@
-# Ideal interface
+# Ideal interface - instruct-chat-deploy
 
 I wanted to point out that what has been developed with lovely.dev, bolt.new and v0 by vercel is kind of an ideal interface and we should seek this for different capabilities:
+
+Instruct-chat-deploy: you can call it ICD or ICPD if you want to mention preview.
 
 ## Control Flow
 

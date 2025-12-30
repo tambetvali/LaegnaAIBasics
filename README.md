@@ -1,6 +1,6 @@
 # AI theory with some of my Laegna mathematical ideas
 
-I asked an AI also to create one [intro](aiintro.md) based on my article.
+I asked an AI also to create one [intro](aiintro.md) based on my article or use the [content map](chapters.md) to browse this repository and all the topics.
 
 This is not hard to provide the basics of an AI in simpler manner, where I don't like that the complexity of texts I used myself, and videos, made many conceptions longer and more complex by involving hard math and complicated ideas.
 

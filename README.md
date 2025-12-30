@@ -1,6 +1,6 @@
 # AI theory with some of my Laegna mathematical ideas
 
-I asked an AI also to create one [intro](aiintro.md) based on my article or use the [content map](chapters.md) to browse this repository and all the topics.
+I asked an AI also to create one [intro](aiintro.md) based on my article or use the [content map](chapters.md) to browse this repository and all the topics; or the [roadmap](roadmap.md) to browse this repository and all the topics to prepare your spirit - contemplate and meditate on mindful sparation of human and AI capabilities, and built-in senses to reasonably understand their exponential potentials, which is the change for your mind: you need to find the depth of your causes and the mule-like power of it's reasons and patterns.
 
 This is not hard to provide the basics of an AI in simpler manner, where I don't like that the complexity of texts I used myself, and videos, made many conceptions longer and more complex by involving hard math and complicated ideas.
 

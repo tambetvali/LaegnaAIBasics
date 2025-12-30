@@ -1,3 +1,24 @@
+<p align="center">
+  <a href="https://www.mentimeter.com/app/presentation/al37z1v5mwmbibyij3ty81p8q2qm83ox/edit?source=share-modal"
+     style="
+       display:inline-block;
+       padding:12px 22px;
+       background:#2d7ff9;
+       color:white;
+       border-radius:8px;
+       text-decoration:none;
+       font-size:16px;
+       font-weight:600;
+       box-shadow:0 2px 6px rgba(0,0,0,0.15);
+     ">
+    🔥 Cause &nbsp;&nbsp;⚡ Reason
+  </a>
+</p>
+
+<p align="center" style="max-width:600px; margin:auto; font-size:14px; color:#555;">
+  This interactive Mentimeter presentation explores the relationship between causes and their underlying reasons, helping you visualize how ideas connect and evolve. Use it as a companion tool while reading this document.
+</p>
+
 # AI theory with some of my Laegna mathematical ideas
 
 I asked an AI also to create one [intro](aiintro.md) based on my article or use the [content map](chapters.md) to browse this repository and all the topics; or the [roadmap](roadmap.md) to browse this repository and all the topics to prepare your spirit - contemplate and meditate on mindful sparation of human and AI capabilities, and built-in senses to reasonably understand their exponential potentials, which is the change for your mind: you need to find the depth of your causes and the mule-like power of it's reasons and patterns.

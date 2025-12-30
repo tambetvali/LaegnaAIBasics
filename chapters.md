@@ -13,7 +13,9 @@ LaegnaAIBasics/
 ├── AddOns/
 ├── NewIdeas/
 ├── README.md
-├── aiintro.md
+├── chapters.md
+├── README.md
+├── roadmap.md
 └── collab.md
 \`\`\`
 
@@ -23,6 +25,10 @@ LaegnaAIBasics/
   - Relative link: [`./NewIdeas/`](./NewIdeas/)
 - 📄 **README.md** → main public introduction  
   - [`./README.md`](./README.md)
+- 📄 **chapters.md** → the current intro summarizes the basic folders and files, content of this manual  
+  - You are already here!
+- 📄 **roadmap.md** → this is your life acceleration map, a self-development plan to upgrade yourself and your capable, assisting robot tools: it's like exponent of possibility, theoretically in life and theory, matter and mind - and the robot mind  
+  - [`./roadmap.md`](./roadmap.md)
 - 📄 **aiintro.md** → introduction to Deep Learning components  
   - [`./aiintro.md`](./aiintro.md)
 - 📄 **collab.md** → collaboration‑oriented context  

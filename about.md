@@ -9,7 +9,7 @@ It links all major chapters and explains how they relate to each other, forming 
 # 1. 🌱 Start Here
 
 ## **1.1 About the Project**  
-**File:** `about.md`  
+**[File](about.md):** `about.md`  
 A conceptual introduction to the project.  
 Explains:
 
@@ -26,7 +26,7 @@ This is the recommended first read.
 # 2. 🚀 Getting Started
 
 ## **2.1 Practical Onboarding**  
-**File:** `getting-started.md`  
+**[File](Intro/gettingstarted.md):** `gettingstarted.md`  
 A hands‑on guide covering:
 
 - how to prepare a workspace (Notion, Obsidian, VSCode)  
@@ -42,7 +42,7 @@ Ideal for users who want to start using AI immediately.
 # 3. 📐 Visual Overview
 
 ## **3.1 System Diagrams**  
-**File:** `visual.md`  
+**[File](Intro/visual.md):** `visual.md`  
 A GitHub‑friendly diagram file showing:
 
 - the flow from human knowledge → LaegnaAIBasics → AI systems → outputs  
@@ -58,7 +58,7 @@ This file provides the visual backbone of the documentation.
 # 4. 🗂️ Collections
 
 ## **4.1 Organizing Materials for AI**  
-**File:** `collections.md`  
+**[File](Intro/collections.md):** `collections.md`  
 Explains how to:
 
 - structure notes, media, PDFs, and code  
@@ -74,7 +74,7 @@ This is the practical foundation for using AI with personal or project materials
 # 5. 🔌 Interfaces
 
 ## **5.1 How AI Systems Interact with Collections**  
-**File:** `interface.md`  
+**[File](Intro/interface.md):** `interface.md`  
 Describes:
 
 - instruct–chat patterns  
@@ -111,7 +111,7 @@ Together, these files form a complete learning and usage path:
 # 7. 📦 Suggested Repository Structure
 
 \`\`\`text
-LaegnaAIBasics/
+LaegnaAIBasics/\[Intro*\]
 │
 ├── about.md
 ├── getting-started.md
@@ -122,6 +122,8 @@ LaegnaAIBasics/
 \`\`\`
 
 This structure keeps the documentation clean, discoverable, and logically ordered.
+
+* Intro: the files from root folder were later moved into intro and rooted folders.
 
 ---
 

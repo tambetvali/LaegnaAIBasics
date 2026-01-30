@@ -20,11 +20,11 @@ LaegnaAIBasics/
 \`\`\`
 
 - 📂 **AddOns/** → extra materials, extensions, supportive notes or experiments  
-  - Relative link: [`./AddOns/`](./AddOns/)
+  - Relative link: [`/AddOns/`](../AddOns/)
 - 📂 **NewIdeas/** → evolving concepts, drafts, or future directions  
-  - Relative link: [`./NewIdeas/`](./NewIdeas/)
+  - Relative link: [`/NewIdeas/`](../NewIdeas/)
 - 📄 **README.md** → main public introduction  
-  - [`./README.md`](./README.md)
+  - [`/README.md`](../README.md)
 - 📄 **chapters.md** → the current intro summarizes the basic folders and files, content of this manual  
   - You are already here!
 - 📄 **roadmap.md** → this is your life acceleration map, a self-development plan to upgrade yourself and your capable, assisting robot tools: it's like exponent of possibility, theoretically in life and theory, matter and mind - and the robot mind  
@@ -40,7 +40,7 @@ LaegnaAIBasics/
 
 ### 1️⃣ Start: Main introduction
 
-- 🧾 **Main README:** [`./README.md`](./README.md)
+- 🧾 **Main README:** [`/README.md`](../README.md)
 
 ---
 
@@ -58,7 +58,7 @@ LaegnaAIBasics/
 
 ## 🧩 AddOns – extensions and extra layers
 
-- 📂 **AddOns folder:** [`./AddOns/`](./AddOns/)
+- 📂 **AddOns folder:** [`/AddOns/`](../AddOns/)
 
 This folder contains auxiliary or extended content that complements the main introductions.
 
@@ -73,7 +73,7 @@ Typical roles include:
 
 ## 💡 NewIdeas – evolving concepts and future directions
 
-- 📂 **NewIdeas folder:** [`./NewIdeas/`](./NewIdeas/)
+- 📂 **NewIdeas folder:** [`/NewIdeas/`](../NewIdeas/)
 
 This folder acts as a **research sketchbook**:
 
@@ -88,24 +88,24 @@ This folder acts as a **research sketchbook**:
 
 ### 🧑‍🎓 If the goal is to learn Deep Learning basics
 
-1. Start with: [`./README.md`](./README.md)  
+1. Start with: [`/README.md`](../README.md)  
 2. Then: [`./aiintro.md`](./aiintro.md)  
-3. Optionally explore: [`./AddOns/`](./AddOns/)
+3. Optionally explore: [`/AddOns/`](../AddOns/)
 
 ---
 
 ### 🧠 If the goal is theoretical / Laegna / Spireason‑aligned thinking
 
-1. Read: [`./README.md`](./README.md)  
-2. Explore: [`./NewIdeas/`](./NewIdeas/)  
+1. Read: [`/README.md`](../README.md)  
+2. Explore: [`/NewIdeas/`](../NewIdeas/)  
 3. Use: [`./collab.md`](./collab.md)
 
 ---
 
 ### 🛠️ If the goal is to build on top of this repo
 
-1. Align on terminology: [`./README.md`](./README.md) + [`./aiintro.md`](./aiintro.md)  
-2. Explore extensions: [`./AddOns/`](./AddOns/) + [`./NewIdeas/`](./NewIdeas/)  
+1. Align on terminology: [`/README.md`](../README.md) + [`./aiintro.md`](./aiintro.md)  
+2. Explore extensions: [`/AddOns/`](../AddOns/) + [`/NewIdeas/`](../NewIdeas/)  
 3. Coordinate via: [`./collab.md`](./collab.md)
 
 ---
@@ -114,11 +114,11 @@ This folder acts as a **research sketchbook**:
 
 | 🔗 Area            | Path                         | Purpose                                                |
 |--------------------|------------------------------|--------------------------------------------------------|
-| Main intro         | [`./README.md`](./README.md) | High‑level description and motivation                  |
+| Main intro         | [`/README.md`](../README.md) | High‑level description and motivation                  |
 | AI basics          | [`./aiintro.md`](./aiintro.md) | Deep Learning components and process overview          |
 | Collaboration/meta | [`./collab.md`](./collab.md) | Context for working with and around this repository    |
-| Add‑ons            | [`./AddOns/`](./AddOns/)     | Extended materials, optional deep dives                |
-| New ideas          | [`./NewIdeas/`](./NewIdeas/) | Experimental, evolving concepts and future directions  |
+| Add‑ons            | [`/AddOns/`](../AddOns/)     | Extended materials, optional deep dives                |
+| New ideas          | [`/NewIdeas/`](../NewIdeas/) | Experimental, evolving concepts and future directions  |
 
 ---
 

@@ -1471,3 +1471,5 @@ These chapters unify:
 into a single conceptual framework centered on **tension, resolution, and adaptation**.
 
 ---
+
+Readme is continued [here](READMECh2EtomsMolecules.md)!

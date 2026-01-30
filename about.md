@@ -90,13 +90,13 @@ This file explains the “bridge” between stored materials and AI outputs.
 
 # 6. 🧩 How the Files Fit Together
 
-\`\`\`text
-about.md          → conceptual foundation  
-getting-started.md → practical onboarding  
-visual.md          → diagrams and structural overview  
-collections.md     → how to organize materials  
-interface.md       → how AI uses those materials  
-\`\`\`
+```text
+about.md                 → conceptual foundation  
+Intro/getting-started.md → practical onboarding  
+Intro/visual.md          → diagrams and structural overview  
+Intro/collections.md     → how to organize materials  
+Intro/interface.md       → how AI uses those materials  
+```
 
 Together, these files form a complete learning and usage path:
 
@@ -110,16 +110,23 @@ Together, these files form a complete learning and usage path:
 
 # 7. 📦 Suggested Repository Structure
 
-\`\`\`text
-LaegnaAIBasics/(+Intro*)
+**Update, it's replaced with real, current structure.**
+
+```text
+LaegnaAIBasics/
 │
 ├── about.md
-├── getting-started.md
-├── visual.md
-├── collections.md
-├── interface.md
-└── ...   ← (the rest)
-\`\`\`
+├── Intro/
+│   ├── README.md
+│   ├── intro.md
+│   ├── getting-started.md
+│   ├── visual.md
+│   ├── collections.md
+│   ├── interface.md
+│   └── ...   ← (the rest)
+│
+└── ...
+```
 
 This structure keeps the documentation clean, discoverable, and logically ordered.
 

@@ -61,8 +61,8 @@ Most individuals interacting with AI systems are not building new architectures.
 
 The documents in LaegnaAIBasics, especially:
 
-- **collections.md**  
-- **interface.md**
+- Intro/**collections.md**  
+- Intro/**interface.md**
 
 explain how to:
 

@@ -239,8 +239,6 @@ but *inevitable*.
         problems as you — problems with **attention**, **disperse and clouded thinking** about large contexts and need to take notes,
         as well as other things it does not necessarily learn from samples, but still shares with your psychology.
 
-I will write the chapter in nearby hours or days, until then you enjoy this into.
-
 # 🌐 **Correlation Glossary Across Three Paradigms**  
 ### *Training → Evolution → Experience, explained through matrix math, tensor fields, and human intuition*
 

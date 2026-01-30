@@ -5,7 +5,7 @@ However, the main folder became crowded, the file list grew long, and the explan
 To restore clarity and structure, these foundational texts were moved into this **Rooted** folder.
 
 This folder contains the *deep‑root* chapters of the Laegna AI Basics project: conceptual foundations, philosophical grounding, ethics, collaboration principles, and long‑term roadmaps.  
-They complement the more introductory materials in the **Intro** folder and the more experimental or modular repositories such as **LaegnaAI**, **LaegnaDocumentation**, and **LaegnaMath**.
+They complement the more introductory materials in the **Intro** folder and the more experimental or modular repository structures such as **LaegnaAI**, **LaegnaDocumentation**, and **LaegnaMath**.
 
 ---
 

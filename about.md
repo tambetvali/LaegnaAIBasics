@@ -9,7 +9,7 @@ It links all major chapters and explains how they relate to each other, forming 
 # 1. 🌱 Start Here
 
 ## **1.1 About the Project**  
-**[File](about.md):** `about.md`  
+**[File](about.md), [Folder](Intro/):** `about.md`, `Intro/README.md`  
 A conceptual introduction to the project.  
 Explains:
 

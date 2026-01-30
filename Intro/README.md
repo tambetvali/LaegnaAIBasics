@@ -94,7 +94,13 @@ Intro (folder)
 # 🧠 Conceptual Flow Diagram
 
 ```mermaid
-
+flowchart LR
+    A[Project Vision] --> B[Core Concepts]
+    B --> C[User Learning Path]
+    C --> D[Tools & Interfaces]
+    D --> E[Practical Usage]
+    E --> F[Feedback Loop]
+    F --> B
 ```
 
 ---
@@ -102,7 +108,13 @@ Intro (folder)
 # 🔄 User‑Level Learning Path
 
 ```mermaid
-
+flowchart LR
+    A[Start: Intro] --> B[Getting Started]
+    B --> C[Visual Understanding]
+    C --> D[Explore Collections]
+    D --> E[Interface & Interaction]
+    E --> F[Apply Knowledge]
+    F --> G[Iterate & Improve]
 ```
 
 ---
@@ -110,7 +122,13 @@ Intro (folder)
 # 🧩 System‑Level / Tool‑Level Structure
 
 ```mermaid
-
+flowchart LR
+    A[User] --> B[Interface Layer]
+    B --> C[Processing Layer]
+    C --> D[AI Tools & Modules]
+    D --> E[Data & Collections]
+    E --> F[Outputs]
+    F --> A
 ```
 
 ---

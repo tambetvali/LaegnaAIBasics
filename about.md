@@ -111,7 +111,7 @@ Together, these files form a complete learning and usage path:
 # 7. 📦 Suggested Repository Structure
 
 \`\`\`text
-LaegnaAIBasics/\[Intro*\]
+LaegnaAIBasics/(+Intro*)
 │
 ├── about.md
 ├── getting-started.md
@@ -123,7 +123,7 @@ LaegnaAIBasics/\[Intro*\]
 
 This structure keeps the documentation clean, discoverable, and logically ordered.
 
-* Intro: the files from root folder were later moved into intro and rooted folders.
+* Intro, Rooted: the files from root folder were later moved into intro and rooted folders.
 
 ---
 

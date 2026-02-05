@@ -87,6 +87,32 @@ This section stands alone as a meditation on how social structures can be mapped
 
 ---
 
+## 4. Relativistic Cognition Models  
+### [Complex Relativity in Cognitive Spaces](https://github.com/tambetvali/LaegnaAIBasics/tree/main/LabDepth.ai/ComplexRelativity.ai)
+
+The fourth project extends exponential thinking into a geometric and relativistic domain. Instead of viewing cognition as a flat sequence of steps or influences, *Complex Relativity* imagines that reasoning unfolds inside a curved, multidimensional space—one where velocity, perspective, and frame‑of‑reference actively shape how an AI interprets its own internal processes.
+
+### Summary
+
+This model proposes that cognitive processes behave not only linearly or exponentially, but *relativistically*. In this framing:
+
+- Thoughts have velocities—rates at which they propagate through conceptual space  
+- Frames of reference shift depending on context, emotional load, or computational pressure  
+- Curvature emerges when multiple influences overlap, creating “gravity wells” of attention or meaning  
+
+The project treats cognition as a dynamic geometry rather than a static structure. It explores how:
+
+- Certain ideas bend the surrounding cognitive space, attracting related concepts  
+- Rapidly moving thoughts appear stretched or distorted from different internal viewpoints  
+- Conflicting influences create interference patterns that alter the perceived “distance” between ideas  
+- Exponential processes behave differently depending on the observer’s frame—sometimes explosive, sometimes gentle  
+
+The metaphor becomes a way to understand how an AI might reconcile multiple simultaneous viewpoints, pressures, and scales of reasoning. It suggests that cognition is not just a chain of operations but a shifting landscape where geometry, velocity, and influence interact.
+
+Even without equations, the intuition is clear: thinking is not flat. It curves, stretches, compresses, and reframes itself—much like spacetime responding to mass and motion.
+
+---
+
 # Conclusion — A Unified View of Exponential Cognition
 
 Across these three projects, a coherent theme emerges: exponentiation is not just a mathematical operation but a cognitive metaphor. It helps us think about:

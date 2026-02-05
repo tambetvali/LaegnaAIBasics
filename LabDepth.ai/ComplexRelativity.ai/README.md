@@ -1,4 +1,4 @@
-# 🌌 **A 60‑Line Introduction to the Universe of Numbers, Meaning, and Relativity**  
+# 🌌 **Introduction to the Universe of Numbers, Meaning, and Relativity**  
 ## *A unified preface to the trilogy*
 
 This introduction prepares the reader for the three‑part journey that follows.  

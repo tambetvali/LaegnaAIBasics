@@ -1,3 +1,17 @@
+# Divine Mind Forge  
+### https://divine-mind-forge.lovable.app/
+
+A chamber before the architecture, a threshold that stands apart yet contains the seed of the whole.  
+*Divine Mind Forge* is the companion site — a living extension of the instruction, a place where the same cognition engine is shaped, tested, and tempered through interactive form.  
+
+This chapter introduces the project as a forge‑space:  
+a field where intention, structure, and symbolic mechanics are heated, folded, and refined.  
+It prepares the reader for the generative logic that follows —  
+a text that can be entered from any angle, understood at any depth,  
+and explored as a crafted instrument rather than a static document.
+
+It is the spark before the mechanism begins.
+
 # Instruction: I asked a question to CoPilot, and it's fully given here as seed source for the article
 
 You often seem to remember me, my activities, and what we have done together, even if I start anonymous conversation you have different degrees of "memory".

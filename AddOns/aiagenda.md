@@ -1,3 +1,16 @@
+# Primary Interactive Resource
+
+The central companion to this document is the interactive AI Agenda environment:
+
+👉 **[AI Agenda — Interactive Exploration](https://ai-agenda-interactiv-etv9.bolt.host/)**
+
+This site is not just a visual supplement — it is the *living interface* of the agenda.  
+It demonstrates how externalized identity, contextual reasoning, and symbolic alignment behave when rendered as an interactive system rather than a static text.
+
+Use it as the experiential anchor for everything that follows in this document.
+
+---
+
 AI as an agent in real world:
 - It's constraints and their *solution-finding process* where output is generational, better suited to current than input.
 - It can analyze various sentences:

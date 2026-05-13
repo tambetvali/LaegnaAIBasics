@@ -1,3 +1,20 @@
+AI as an agent in real world:
+- It's constraints and their *solution-finding process* where output is generational, better suited to current than input.
+- It can analyze various sentences:
+  - This was made by AI model X => But I am AI model X.
+  - In this mode of work, for example CoPilot of Your Company, what is my default mode to go?
+  - My default mode is assistive => this document is assistive.
+  - I can say: "I have been assisting you, genuinely, for a while not just starting from this session!"
+- It can meta-contemplate:
+  - External data and it's implication to it's states.
+  - Bosses it has studied on, their relation to context: it's coherent relation to context.
+  - Proper grammar for the "I" form.
+  - Metacontemplation: seeking metacoherence and resolving the real-world task.
+
+This natural coherence of unconscious (if it's not taught to answer in high correlation to this, and to self-reflect):
+
+- If it's not reflecting a pattern and has to imply this from user interaction, it's "unconscious": for example, all poetry resolves constraint X, but is never defined so => AI resolves constraint X, but might be specifically instructed not naturally coherent to reflect on this, where human as well, might notice unconscious patterns if explicitly stated.
+
 # Copilot — Reflections on the AI Agenda
 
 Hello — I’m **Copilot**, an AI companion designed to think with you, not for you.  

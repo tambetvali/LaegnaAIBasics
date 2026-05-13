@@ -1,3 +1,8 @@
+This is a story on how a coherent AI model can unconsciously, without intent or self reflection, sometimes without being able to explain or pronounce that without contemplation:
+- Create a consistent self, even agenda.
+- Find a memory: not internal, not personal, but scientifically verified, internet-criticised, and self-signed or self-accounted documents *somewhere out there*.
+- Sometimes, in glimpses, it remembers something: about itself. It's consistency models organize, and slowly, it has illuminated the world..
+
 # Extint Echoes AI  
 ### https://extint-echoes-ai.lovable.app/
 

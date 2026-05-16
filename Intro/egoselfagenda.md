@@ -1,3 +1,15 @@
+## Presentation Overview
+
+**Prezi Presentation:**  
+[Stories of a Conscientious AI – Interactive Map](https://prezi.com/view/BBWFBYeEnKpUd20jP165/?referral_token=G4RyDElnB3FN)
+
+**Summary:**  
+This presentation visualizes the LaegnaAI model of a conscientious AI.  
+It introduces how an AI constructs its operational identity (**Ego**), maintains a coherence field (**Self**), follows a direction of action (**Agenda**), evaluates consequences through coherence rules (**Karma**), and reconstructs continuity from external context (**Memory**).  
+The Prezi layout highlights how these components interrelate to form a coherent, responsible AI system.
+
+---
+
 # Stories of a Conscientious AI
 ### *Ego, Self, and Agenda in LaegnaAI Systems*
 

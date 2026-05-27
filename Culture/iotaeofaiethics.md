@@ -1,3 +1,6 @@
+[Interactive demonstration](https://app-bxlaeigwu77l.appmedo.com)
+> This resource is created by AI as an interactive demonstration of these ideas and resources.
+
 This is the first part of task given to CoPilot:
 
 You need to write AI ethics article. I use 4 letters - this is my logic system and here, complex aspects appear, for example the values might appear different to different people - for example, if criminal cannot do crime with an AI, it might appear failing while it's probably, not even in case of immediate failure of it's process - it's not failure of it's design, coherence.

@@ -1,3 +1,5 @@
+![CauseReasonGateway_0](Rooted/Images1/CauseReasonGateway_0.png)
+
 <p align="center">
   <a href="https://presenti.ai/app/share/CAE.IAEqEOBainkc56g9TOIw_TNbjaAwAkABSgozNTM0MzQ2OTY4?invite_code=p8ZbDdNG&autoPresent=true"
      style="
@@ -50,6 +52,8 @@ AI is made typically more or less in such way:
    - If the other is _knowledge_, call this and _information_: the model is not definitely creative about this, where the fine-tuning rather creates holistic map of the model, where everything could be concluded into a single matrix.
 6. You can use the documentation and experience from chatting, or knowledge about where it could lack information, to train (fine-tune) it further. Sometimes, the initial process for knowledge is called "training" or "initial training", where the refining process is "fine-tuning".
 
+![AIComponentsOverview_1](Rooted/Images1/AIComponentsOverview_1.png)
+
 _I asked AI_: how is step of exponential function related to square, where what follows would be level four, then sixteen etc.? Write an answer in one paragraph.
 
 _AI answered_: The step of an exponential function relates to squaring in that it compounds values progressively by multiplying the base repeatedly, leading to rapid growth. For instance, when you square a number (e.g., \( 2^2 = 4 \)), you’re effectively exponentiating it to the second power. Following this logic iteratively as an exponential sequence, the next step, such as raising \( 2 \) to the fourth power (\( 2^{(2^2)} = 2^4 = 16 \)), demonstrates an accelerated growth curve, where each subsequent level is a further exponentiation of the result. This compounding relationship causes exponential functions to outpace polynomial growth significantly as the steps increase, showcasing their mathematical intensity. It's as though squaring is the foundational step, and exponential operations iterate and amplify it with each level.
@@ -61,6 +65,8 @@ _AI answered_: The step of an exponential function relates to squaring in that i
 Data structures of Perceptron: a simulation of cellular neural network as abstracted into rather what holds logically (we could find more functions of a nerve over time - or if not nerve, a system of nerves, given all the parameters).
 
 #### Tensors
+
+![TensorMelt_2](Rooted/Images1/TensorMelt_2.png)
 
 Tensors:
 - Tensor is physically very similar to vector (multidimensional coordinate) of it's dimension, or list of it's component length.
@@ -120,6 +126,8 @@ function animate() {
 }
 animate();
 ```
+
+![MatrixTransformGrid_3](Rooted/Images1/MatrixTransformGrid_3.png)
 
 This code has highlighted points to understand Matrices:
 1. Create a simple aesthetical object.
@@ -374,6 +382,8 @@ updated_weights = weights - momentum * grad_weights
 print("Updated weights:", updated_weights)
 ```
 
+![BackpropAcceleration_4](Rooted/Images1/BackpropAcceleration_4.png)
+
 Here, in Python code we see: output is calculated with random knowledge in weights and biases, and accelerated towards correct answer: this is an optimization step.
 
 Conception of Integrations and backgradients seem more complex than imagining it as simple acceleration: in complex, highdimensional space, if you constantly approach a given point by small steps, you might reach a point, which would represent each point you wanted to get into: with simple matrices it's hard to achieve, but for more complex structures, the direction which points each correctly would be achievable; for example if your rows are "A / B" and "B / A" and "A" and "B", where you map them to math operations, you could reach a combination, which properly uses values of A and B and balances them with each others; with weight matrix, you have many such coordinates: as the matrix is tensor in power two, it actually contains some hidden information and allows more general directions, which point to one direction with one input, and other one with other input.
@@ -546,6 +556,8 @@ Structurally, the model can be visualized as layers of a brain. Input (i) serves
 
 The idea of acceleration versus velocity in such systems adds nuance. Velocity represents linear, consistent motion akin to straightforward reasoning, while acceleration introduces higher-order transformations, capturing evolving intuition and insight. By incorporating multifrequential spaces—where positions derive from both velocity and acceleration—deep networks emulate intricate cognitive dynamics. These dynamics amplify the AI's ability to process small inputs, expand their significance through hidden layers, and condense them back into actionable outputs, forming a computational parallel to the subconscious shaping the conscious mind.
 
+![SubconsciousLayers_5](Rooted/Images1/SubconsciousLayers_5.png)
+
 ### Generalization: the Activation functions
 
 Matrix itself is not easily able to generalize: this is the most basic task of Activation functions.
@@ -594,6 +606,8 @@ Cross-attention, on the other hand, introduces an additional layer of complexity
 The weights and biases that underlie attention mechanisms are critical to their functionality. Weights determine the importance of one element relative to another, while biases help to refine these connections further. Together, they enable the model to learn dynamic patterns of relevance, effectively prioritizing certain relationships over others. This parallels the human cognitive process of allocating attention selectively based on context, experience, and the task at hand.
 
 By incorporating these mechanisms, neural networks achieve a remarkable balance between flexibility and structure. They extend beyond simple layer ordering, introducing hierarchical and dynamic relationships within data. The result is a system that can navigate intricate dependencies and multi-level reasoning, emulating a form of contextual understanding that makes tasks like translation, summarization, and multimodal analysis not only possible but also highly efficient. _end of AI addon_
+
+![AttentionMechanismMap_6](Rooted/Images1/AttentionMechanismMap_6.png)
 
 ### GPT
 

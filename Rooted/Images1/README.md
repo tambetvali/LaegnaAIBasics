@@ -9,9 +9,9 @@ Each image includes a title, filename, local reference, and a copyable block for
 **Image:**  
 ![CauseReasonGateway_0](./CauseReasonGateway_0.jpg)
 
-\`\`\`md
+```md
 ![CauseReasonGateway_0](Rooted/Images1/CauseReasonGateway_0.jpg)
-\`\`\`
+```
 
 **Placement:**  
 Insert **before the very first `<p align="center">` block**, acting as the symbolic “entry portal” to the article.
@@ -26,9 +26,9 @@ A mixed‑style image combining conceptual and artistic elements: a glowing gate
 **Image:**  
 ![AIComponentsOverview_1](./AIComponentsOverview_1.jpg)
 
-\`\`\`md
+```md
 ![AIComponentsOverview_1](Rooted/Images1/AIComponentsOverview_1.jpg)
-\`\`\`
+```
 
 **Placement:**  
 Place **after the numbered list in “AI Components and process”**, before the paragraph beginning with *“I asked AI:”*.
@@ -43,9 +43,9 @@ A clean conceptual diagram showing the 6 steps of AI creation: deep learning pla
 **Image:**  
 ![TensorMelt_2](./TensorMelt_2.jpg)
 
-\`\`\`md
+```md
 ![TensorMelt_2](Rooted/Images1/TensorMelt_2.jpg)
-\`\`\`
+```
 
 **Placement:**  
 Insert **right after the section header `#### Tensors`**, before the bullet list.
@@ -60,9 +60,9 @@ Artistic‑conceptual hybrid: a 3D tensor visualized as a glowing cube made of s
 **Image:**  
 ![MatrixTransformGrid_3](./MatrixTransformGrid_3.jpg)
 
-\`\`\`md
+```md
 ![MatrixTransformGrid_3](Rooted/Images1/MatrixTransformGrid_3.jpg)
-\`\`\`
+```
 
 **Placement:**  
 Place **after the JavaScript three.js example**, before the paragraph beginning with *“This code has highlighted points…”*.
@@ -77,9 +77,9 @@ A conceptual diagram: a 3×3 and 4×4 matrix shown as grids, with arrows demonst
 **Image:**  
 ![BackpropAcceleration_4](./BackpropAcceleration_4.jpg)
 
-\`\`\`md
+```md
 ![BackpropAcceleration_4](Rooted/Images1/BackpropAcceleration_4.jpg)
-\`\`\`
+```
 
 **Placement:**  
 Insert **after the Python example in “Acceleration: Back-propagation”**, before the section “Mathematical Information: Integration…”.
@@ -94,9 +94,9 @@ A mixed‑style image: a vector field representing gradients flowing downhill on
 **Image:**  
 ![SubconsciousLayers_5](./SubconsciousLayers_5.jpg)
 
-\`\`\`md
+```md
 ![SubconsciousLayers_5](Rooted/Images1/SubconsciousLayers_5.jpg)
-\`\`\`
+```
 
 **Placement:**  
 Place **after the long “Subconsciousness: Multi-layered design” section**, before “Generalization: the Activation functions”.
@@ -111,9 +111,9 @@ Artistic metaphysical style: multiple translucent layers stacked like sheets of 
 **Image:**  
 ![AttentionMechanismMap_6](./AttentionMechanismMap_6.jpg)
 
-\`\`\`md
+```md
 ![AttentionMechanismMap_6](Rooted/Images1/AttentionMechanismMap_6.jpg)
-\`\`\`
+```
 
 **Placement:**  
 Insert **after the “Attention” section**, before “GPT”.

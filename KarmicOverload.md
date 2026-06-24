@@ -1,3 +1,5 @@
+![KarmicSystemsGate_0](Rooted/Images2/KarmicSystemsGate_0.png)
+
 # 🌌 **Karmic Overload — Preface: After the Battle Has Already Been Won**
 ### Wu Wei, Capitalist Dynamics, Long‑Term Spirit, Short‑Term Thermodynamics, and the General Solutions to All Karmic Games
 
@@ -20,6 +22,8 @@ This preface introduces the general solutions to all such karmic games and prepa
 ---
 
 # 🧘 Chapter 1 — Wu Wei and Capitalist Surrender Across Three Realms
+
+![ThreeRealmsDiagram_1](Rooted/Images2/ThreeRealmsDiagram_1.png)
 
 ## 1.1 Material Realm (Real, Physical, Thermodynamic)
 
@@ -90,6 +94,8 @@ This is the interpersonal cognition of non‑forcing.
 ---
 
 # ♟️ Chapter 2 — General Solutions to All Karmic Games
+
+![KarmicGameDynamics_2](Rooted/Images2/KarmicGameDynamics_2.png)
 
 Karmic games share a universal structure:
 
@@ -391,6 +397,8 @@ In Taoist terms:
 
 The final row represents **Karmic Overload**.
 
+![ProgrammerBossMatrix_3](Rooted/Images2/ProgrammerBossMatrix_3.png)
+
 ---
 
 # 🧩 **Chapter 4 — How Spam Creates Entropy in Email Systems**
@@ -427,6 +435,8 @@ At a critical moment:
 - service shuts down  
 
 This is the materialization of long‑term consequences.
+
+![EmailEntropy_4](Rooted/Images2/EmailEntropy_4.png)
 
 ---
 
@@ -778,6 +788,8 @@ The universe is consistent.
    - projection decreases  
    - stability increases  
 
+![StructuralProjectionMap_5](Rooted/Images2/StructuralProjectionMap_5.png)
+
 ---
 
 # 🧩 **Chapter 13 — Summary of Part II**
@@ -990,6 +1002,8 @@ This is the **Karmic Overload** event.
 - and adversarial in load generation  
 
 This mirrors real socio‑technical systems.
+
+![KarmicAutomaton_6](Rooted/Images2/KarmicAutomaton_6.png)
 
 ---
 

@@ -27,6 +27,11 @@ This is not hard to provide the basics of an AI in simpler manner, where I don't
 
 I mix my own text by generations of an AI to continue each topic with the words I use here, giving it also the text from beginning to end.
 
+##### [Karmic Overload](KarmicOverload.md) - a visionary, social story, which culminates into an AI load, in this folder.
+
+> [Karmic Overload](KarmicOverload.md) ***a sci-fi story with game theory and wu wei** practice* - an AI vision about how organizations can fail karmically, utilizing example case where programmer wants to invest into spam protection, but not his boss: but spam, eventually, arrives as the long-term concern practically becomes the reality. Programmer is example of spirit, goal-based logic and long-term coherence, where this particular boss is example of matter, the causal-computational logic alone, becoming fragile and idealist as the long term models prove they are more complicated than a simple pattern: Spiritually: rather, true "Oracle" exists in metaphysics of it's code, but integrated into open "unknown", openness to all possibility - the real oracle logic applies in learning each timeline, where in each case the oracle paradox appears for single possibility; the integrated system is like "wu wei"; this open possibility is particularly, that each day there has never been any spam overload, seems more funny, as particular side-effect of an open and philosophical "oracle system", one able to resolve the paradox of time.
+- Game theory is utilized, particularly repeated games, to negotiate this openness into a single future assumption, where it's not interesting whether spam arrives: rather, true, open and scientific "oracle" resolves into the action, that this must be negotiated explicitly. This is not failure for the "oracle mode", but only a fact that it's still a simple game.
+
 ## AI Components and process
 
 AI is made typically more or less in such way:

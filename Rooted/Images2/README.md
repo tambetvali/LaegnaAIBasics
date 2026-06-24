@@ -7,10 +7,10 @@ Each image includes a title, filename, local reference, and a copyable block for
 ## 0. Opening Image — “Karmic Systems Gate”
 **Filename: KarmicSystemsGate_0**  
 **Image:**  
-![KarmicSystemsGate_0](./KarmicSystemsGate_0.jpg)
+![KarmicSystemsGate_0](./KarmicSystemsGate_0.png)
 
 ```md
-![KarmicSystemsGate_0](Rooted/Images2/KarmicSystemsGate_0.jpg)
+![KarmicSystemsGate_0](Rooted/Images2/KarmicSystemsGate_0.png)
 ```
 
 **Placement:**  
@@ -25,10 +25,10 @@ A metaphysical‑technical hybrid: a cosmic gate made of interlocking gears, pro
 ## 1. Image — “Three Realms of Wu Wei & Capitalist Surrender”
 **Filename: ThreeRealmsDiagram_1**  
 **Image:**  
-![ThreeRealmsDiagram_1](./ThreeRealmsDiagram_1.jpg)
+![ThreeRealmsDiagram_1](./ThreeRealmsDiagram_1.png)
 
 ```md
-![ThreeRealmsDiagram_1](Rooted/Images2/ThreeRealmsDiagram_1.jpg)
+![ThreeRealmsDiagram_1](Rooted/Images2/ThreeRealmsDiagram_1.png)
 ```
 
 **Placement:**  
@@ -48,10 +48,10 @@ Minimalistic, soft colors, Taoist influence.
 ## 2. Image — “Karmic Game Dynamics Map”
 **Filename: KarmicGameDynamics_2**  
 **Image:**  
-![KarmicGameDynamics_2](./KarmicGameDynamics_2.jpg)
+![KarmicGameDynamics_2](./KarmicGameDynamics_2.png)
 
 ```md
-![KarmicGameDynamics_2](Rooted/Images2/KarmicGameDynamics_2.jpg)
+![KarmicGameDynamics_2](Rooted/Images2/KarmicGameDynamics_2.png)
 ```
 
 **Placement:**  
@@ -72,10 +72,10 @@ Blend of system‑theory aesthetics and spiritual symbolism.
 ## 3. Image — “Programmer vs Boss — Payoff Matrix Visualization”
 **Filename: ProgrammerBossMatrix_3**  
 **Image:**  
-![ProgrammerBossMatrix_3](./ProgrammerBossMatrix_3.jpg)
+![ProgrammerBossMatrix_3](./ProgrammerBossMatrix_3.png)
 
 ```md
-![ProgrammerBossMatrix_3](Rooted/Images2/ProgrammerBossMatrix_3.jpg)
+![ProgrammerBossMatrix_3](Rooted/Images2/ProgrammerBossMatrix_3.png)
 ```
 
 **Placement:**  
@@ -91,10 +91,10 @@ Clean, game‑theory style, with subtle karmic overtones.
 ## 4. Image — “Entropy Accumulation in Email Systems”
 **Filename: EmailEntropy_4**  
 **Image:**  
-![EmailEntropy_4](./EmailEntropy_4.jpg)
+![EmailEntropy_4](./EmailEntropy_4.png)
 
 ```md
-![EmailEntropy_4](Rooted/Images2/EmailEntropy_4.jpg)
+![EmailEntropy_4](Rooted/Images2/EmailEntropy_4.png)
 ```
 
 **Placement:**  
@@ -114,10 +114,10 @@ Style: engineering diagram with slight metaphysical glow.
 ## 5. Image — “Structural Discrimination & Projection — Unified Map”
 **Filename: StructuralProjectionMap_5**  
 **Image:**  
-![StructuralProjectionMap_5](./StructuralProjectionMap_5.jpg)
+![StructuralProjectionMap_5](./StructuralProjectionMap_5.png)
 
 ```md
-![StructuralProjectionMap_5](Rooted/Images2/StructuralProjectionMap_5.jpg)
+![StructuralProjectionMap_5](Rooted/Images2/StructuralProjectionMap_5.png)
 ```
 
 **Placement:**  
@@ -135,10 +135,10 @@ Mixed style: technical nodes + soft psychological gradients.
 ## 6. Image — “Karmic Automaton — State Machine Diagram”
 **Filename: KarmicAutomaton_6**  
 **Image:**  
-![KarmicAutomaton_6](./KarmicAutomaton_6.jpg)
+![KarmicAutomaton_6](./KarmicAutomaton_6.png)
 
 ```md
-![KarmicAutomaton_6](Rooted/Images2/KarmicAutomaton_6.jpg)
+![KarmicAutomaton_6](Rooted/Images2/KarmicAutomaton_6.png)
 ```
 
 **Placement:**  

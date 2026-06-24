@@ -9,9 +9,9 @@ Each image includes a title, filename, local reference, and a copyable block for
 **Image:**  
 ![KarmicSystemsGate_0](./KarmicSystemsGate_0.jpg)
 
-\`\`\`md
+```md
 ![KarmicSystemsGate_0](Rooted/Images2/KarmicSystemsGate_0.jpg)
-\`\`\`
+```
 
 **Placement:**  
 Insert **before the very first line** (“🌌 Karmic Overload — Preface: After the Battle Has Already Been Won”).  
@@ -27,9 +27,9 @@ A metaphysical‑technical hybrid: a cosmic gate made of interlocking gears, pro
 **Image:**  
 ![ThreeRealmsDiagram_1](./ThreeRealmsDiagram_1.jpg)
 
-\`\`\`md
+```md
 ![ThreeRealmsDiagram_1](Rooted/Images2/ThreeRealmsDiagram_1.jpg)
-\`\`\`
+```
 
 **Placement:**  
 Place **after the section header**:  
@@ -50,9 +50,9 @@ Minimalistic, soft colors, Taoist influence.
 **Image:**  
 ![KarmicGameDynamics_2](./KarmicGameDynamics_2.jpg)
 
-\`\`\`md
+```md
 ![KarmicGameDynamics_2](Rooted/Images2/KarmicGameDynamics_2.jpg)
-\`\`\`
+```
 
 **Placement:**  
 Insert **after the header**:  
@@ -74,9 +74,9 @@ Blend of system‑theory aesthetics and spiritual symbolism.
 **Image:**  
 ![ProgrammerBossMatrix_3](./ProgrammerBossMatrix_3.jpg)
 
-\`\`\`md
+```md
 ![ProgrammerBossMatrix_3](Rooted/Images2/ProgrammerBossMatrix_3.jpg)
-\`\`\`
+```
 
 **Placement:**  
 Place **after the payoff matrix table** in Chapter 3.
@@ -93,9 +93,9 @@ Clean, game‑theory style, with subtle karmic overtones.
 **Image:**  
 ![EmailEntropy_4](./EmailEntropy_4.jpg)
 
-\`\`\`md
+```md
 ![EmailEntropy_4](Rooted/Images2/EmailEntropy_4.jpg)
-\`\`\`
+```
 
 **Placement:**  
 Insert **after the section**:  
@@ -116,9 +116,9 @@ Style: engineering diagram with slight metaphysical glow.
 **Image:**  
 ![StructuralProjectionMap_5](./StructuralProjectionMap_5.jpg)
 
-\`\`\`md
+```md
 ![StructuralProjectionMap_5](Rooted/Images2/StructuralProjectionMap_5.jpg)
-\`\`\`
+```
 
 **Placement:**  
 Place **after Chapter 12 — Rich‑Text Pseudocode: Structural Discrimination & Projection**.
@@ -137,9 +137,9 @@ Mixed style: technical nodes + soft psychological gradients.
 **Image:**  
 ![KarmicAutomaton_6](./KarmicAutomaton_6.jpg)
 
-\`\`\`md
+```md
 ![KarmicAutomaton_6](Rooted/Images2/KarmicAutomaton_6.jpg)
-\`\`\`
+```
 
 **Placement:**  
 Insert **after Chapter 16 — Formalizing Karmic Automata**, before Chapter 17.

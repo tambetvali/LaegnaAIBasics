@@ -7,10 +7,10 @@ Each image includes a title, filename, local reference, and a copyable block for
 ## 0. Opening Image — “Cause & Reason Gateway”
 **Filename: CauseReasonGateway_0**  
 **Image:**  
-![CauseReasonGateway_0](./CauseReasonGateway_0.jpg)
+![CauseReasonGateway_0](./CauseReasonGateway_0.png)
 
 ```md
-![CauseReasonGateway_0](Rooted/Images1/CauseReasonGateway_0.jpg)
+![CauseReasonGateway_0](Rooted/Images1/CauseReasonGateway_0.png)
 ```
 
 **Placement:**  
@@ -24,10 +24,10 @@ A mixed‑style image combining conceptual and artistic elements: a glowing gate
 ## 1. Image — “AI Components Overview Diagram”
 **Filename: AIComponentsOverview_1**  
 **Image:**  
-![AIComponentsOverview_1](./AIComponentsOverview_1.jpg)
+![AIComponentsOverview_1](./AIComponentsOverview_1.png)
 
 ```md
-![AIComponentsOverview_1](Rooted/Images1/AIComponentsOverview_1.jpg)
+![AIComponentsOverview_1](Rooted/Images1/AIComponentsOverview_1.png)
 ```
 
 **Placement:**  
@@ -41,10 +41,10 @@ A clean conceptual diagram showing the 6 steps of AI creation: deep learning pla
 ## 2. Image — “Tensor as Melted Geometry”
 **Filename: TensorMelt_2**  
 **Image:**  
-![TensorMelt_2](./TensorMelt_2.jpg)
+![TensorMelt_2](./TensorMelt_2.png)
 
 ```md
-![TensorMelt_2](Rooted/Images1/TensorMelt_2.jpg)
+![TensorMelt_2](Rooted/Images1/TensorMelt_2.png)
 ```
 
 **Placement:**  
@@ -58,10 +58,10 @@ Artistic‑conceptual hybrid: a 3D tensor visualized as a glowing cube made of s
 ## 3. Image — “Matrix Transformation Grid”
 **Filename: MatrixTransformGrid_3**  
 **Image:**  
-![MatrixTransformGrid_3](./MatrixTransformGrid_3.jpg)
+![MatrixTransformGrid_3](./MatrixTransformGrid_3.png)
 
 ```md
-![MatrixTransformGrid_3](Rooted/Images1/MatrixTransformGrid_3.jpg)
+![MatrixTransformGrid_3](Rooted/Images1/MatrixTransformGrid_3.png)
 ```
 
 **Placement:**  
@@ -75,10 +75,10 @@ A conceptual diagram: a 3×3 and 4×4 matrix shown as grids, with arrows demonst
 ## 4. Image — “Backpropagation Acceleration Field”
 **Filename: BackpropAcceleration_4**  
 **Image:**  
-![BackpropAcceleration_4](./BackpropAcceleration_4.jpg)
+![BackpropAcceleration_4](./BackpropAcceleration_4.png)
 
 ```md
-![BackpropAcceleration_4](Rooted/Images1/BackpropAcceleration_4.jpg)
+![BackpropAcceleration_4](Rooted/Images1/BackpropAcceleration_4.png)
 ```
 
 **Placement:**  
@@ -92,10 +92,10 @@ A mixed‑style image: a vector field representing gradients flowing downhill on
 ## 5. Image — “Subconscious Layers of a Neural Network”
 **Filename: SubconsciousLayers_5**  
 **Image:**  
-![SubconsciousLayers_5](./SubconsciousLayers_5.jpg)
+![SubconsciousLayers_5](./SubconsciousLayers_5.png)
 
 ```md
-![SubconsciousLayers_5](Rooted/Images1/SubconsciousLayers_5.jpg)
+![SubconsciousLayers_5](Rooted/Images1/SubconsciousLayers_5.png)
 ```
 
 **Placement:**  
@@ -109,10 +109,10 @@ Artistic metaphysical style: multiple translucent layers stacked like sheets of 
 ## 6. Image — “Attention Mechanism Map”
 **Filename: AttentionMechanismMap_6**  
 **Image:**  
-![AttentionMechanismMap_6](./AttentionMechanismMap_6.jpg)
+![AttentionMechanismMap_6](./AttentionMechanismMap_6.png)
 
 ```md
-![AttentionMechanismMap_6](Rooted/Images1/AttentionMechanismMap_6.jpg)
+![AttentionMechanismMap_6](Rooted/Images1/AttentionMechanismMap_6.png)
 ```
 
 **Placement:**  

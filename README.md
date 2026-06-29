@@ -73,7 +73,7 @@ Tensors:
 - Conception of Tensors is associated with physics and other material sciences or sciences about systems with tensions: for example, fields shape the spatial structure, creating tensions inside it, and producing reactions of the matter inside.
 - Typically, the tensor size is static. The input and output layers are iterating over possible inputs and outputs in training and fine-tuning, whereas they calculate outputs for inputs and introduce random factor when being in inference, in actual use. In hidden layers, tensors are then going through different shapes and structures _to get rid of tension_.
 
-So a Tensor could be: [1, 2, 3]; where it's point perhaps with X=1, Y=2 and Z=3 in 3-dimensional coordinate space; it could resemble number, when one dimensional, or point coordinates, when having two dimensions. Hypergeometry appears in fourth dimension, and in any number of dimensions, one could do all the calculations.
+So a Tensor could be: `[1, 2, 3]`; where it's point perhaps with $X=1$, $Y=2$ and $Z=3$ in 3-dimensional coordinate space; it could resemble number, when one dimensional, or point coordinates, when having two dimensions. Hypergeometry appears in fourth dimension, and in any number of dimensions, one could do all the calculations.
 
 So as you would expect from a Tensor: when teaching it, you make it "hot" or melt it, so that it has variable shape (numbers within); when you finish, it would cool down and serve you on cristalline basis until more fine-tuning where it's how again. For fine-tunig a _brain_, or model, to load it with _knowledge_ or data / datasets, you need the _brain_ and _knowledge_: the _model_ and it's _weight matrix_.
 
@@ -96,7 +96,7 @@ To associate, for example, 3D matrices with 1D for addition, with something you 
 - The _coordinate space matrix_ is used to _create a perspective or viewport_: This uses the same properties: if the space around you would be an object, you could rotate, resize and move it. It's visible as rotating the space, zooming in and out, and moving the camera.
   - _AI_: The matrix used to create a perspective or viewport is called the __Projection Matrix__. This matrix defines how 3D objects are mapped onto a 2D view, creating the illusion of depth and perspective.
 
-Using Javascript library three.js, you can create those matrices with WebGL (code by CoPilot; the code is not very important to understand, but can be a good starting point for 3D matrices):
+Using Javascript library `three.js`, you can create those matrices with WebGL (code by CoPilot; the code is not very important to understand, but can be a good starting point for 3D matrices):
 ```javascript
 // Initialize Scene, Camera, Renderer
 const scene = new THREE.Scene();
@@ -181,24 +181,26 @@ multiplying accordingly.
 print(result)
 ```
 
-If we use C = A(B) as multiplication of two matrices A and B, we need to track the input and output:
-- In our case, we could define matrix definitely in way that rows are input and columns are output, and use this format where we multiply functions together: E = {A * B * C}(D) that we do E = A(B(C(D))). We could then use {} to contain an expression with functions.
+If we use $C = A(B)$ as multiplication of two matrices $A$ and $B$, we need to track the input and output:
+- In our case, we could define matrix definitely in way that rows are input and columns are output, and use this format where we multiply functions together: $E = \\{A * B * C\\}(D)$ that we do $E = A(B(C(D)))$. We could then use $\\{\\}$ to contain an expression with functions.
 
 How to understand the function:
 - `i` and `j`: multiply over rows of first and columns of second matrix, which are input and output of multiplied call sequence, where you multiply several matrices to perform the operations _as if they were performed one after another_.
-  - For example if you have matrices A, B and C, then D = A * B * C would mean that D(x), where x is vector, performs the same operation as A(B(C(x))). So, a sequence of transformations with matrices can be stored as efficiently as one transformation: in 3D graphics, you do many subsequent operations over the perspective and object transformations and positioning; if you have one matrix to multiply for each operation, which is normal, you get a resulting matrix, which basically does all the operations at once.
-- `k`: iterates over the _hidden part_ of the sequence, which is not directly in input and output. I call it _hidden part_, the output of A as input to B, as we do not see this directly, but only the actual input and output of the multiplication group. The columns of A and rows of B are iterated with the same iterator: thus, while i and j iterate over each possible combination, k and k keep columns of the first matrix together with rows of another. On these two combinations in given case, it would multiply each column of first matrix with each row of the second, for each _hidden member_ (I call them hidden members, because each is output of first, and input of the second matrix), so that i iterates over rows of A, j over columns of B, and rows for C are created - it's input.
+  - For example if you have matrices $A$, $B$ and $C$, then $D = A * B * C$ would mean that $D(x)$, where $x$ is vector, performs the same operation as $A(B(C(x)))$. So, a sequence of transformations with matrices can be stored as efficiently as one transformation: in 3D graphics, you do many subsequent operations over the perspective and object transformations and positioning; if you have one matrix to multiply for each operation, which is normal, you get a resulting matrix, which basically does all the operations at once.
+- `k`: iterates over the _hidden part_ of the sequence, which is not directly in input and output. I call it _hidden part_, the output of $A$ as input to $B$, as we do not see this directly, but only the actual input and output of the multiplication group. The columns of $A$ and rows of $B$ are iterated with the same iterator: thus, while $i$ and $j$ iterate over each possible combination, $k$ and $k$ keep columns of the first matrix together with rows of another. On these two combinations in given case, it would multiply each column of first matrix with each row of the second, for each _hidden member_ (I call them hidden members, because each is output of first, and input of the second matrix), so that i iterates over rows of $A$, $j$ over columns of $B$, and rows for $C$ are created - it's input.
   - Notice where the ability for transcension comes to matrix, where it can apply complextranformations to objects: The combination of each position is favourable, because all columns of one are used separately for each row of the other, and half of all possible combinations are used for input and half for output.
 
 Why I say half of combinations are used?
 
-In case of 3D, we have same shape of input and output: a 4 times 4 matrix with 3 rows and columns for multiplication like _weight matrix_, and last ones for addition like _bias matrix_ or rather _bias vector_. The biggest challenge is unification of linear (addition, subtraction) and exponential (multiplication, division) space, where normally only one row and column are used for _bias matrix_: normally, weights are stored in matrix, and biases in vector - where both together form  __Knowledge__ of _pre-trained model_ or __Brain__.
+In case of 3D, we have same shape of input and output: a $4$ times $4$ matrix with $3$ rows and columns for multiplication like _weight matrix_, and last ones for addition like _bias matrix_ or rather _bias vector_. The biggest challenge is unification of linear (addition, subtraction) and exponential (multiplication, division) space, where normally only one row and column are used for _bias matrix_: normally, weights are stored in matrix, and biases in vector - where both together form  __Knowledge__ of _pre-trained model_ or __Brain__.
 
-Where input and output are of the same type, one can notice that in regards to input and output, if they would be the same variable, where we do C = A * B, but in 1 / B = A / C we would see a picture of "A / C", where we would combine all combinations of this kind of inverse operation - and out of interest, b could be (1 / C) and in A * b, we would combine through each possibility. Thus, for two _distinct_ variables, we do half of the combinations for both.
+Where input and output are of the same type, one can notice that in regards to input and output, if they would be the same variable, where we do $C = A * B$, but in $1 / B = A / C$ we would see a picture of $A / C$, where we would combine all combinations of this kind of inverse operation - and out of interest, b could be $(1 / C)$ and in $A * b$, we would combine through each possibility. Thus, for two _distinct_ variables, we do half of the combinations for both.
 
 Moreover, in an important symmetry: given such half-complete combinatorics, rows and columns would give half plus half, or one full combinatoric for these two variables. The case is, you can use the same variable: for example, geometric point n as both columns and rows, which means there could be three-dimensional vector n for two points, x and y, where dimensions of x are rows, and dimensions of y are columns of the matrix. Basically you can see: you could map the multiplication and division in any combination to those variables, and you would get a perfect transformation of that vector with matrix.
 
+$$
 V(m)
+$$
 
 Then, matrix m multiplied by vector v would output a vector, where rows x, y and z of matrix are each componentwise multiplied, and components of the result are summed: then, it's like having a vector of three vectors (three-dimensional three-dimensional space), another vector of three scalars, which we multiply. Geometrically, vector is a direction with length: (1, 1, 1) would be 3d identity vector, where multiplication leaves another vector impact, and 1 is identity scalar. In identity matrix you have positions (x, x), (y, y), (z, z) and subsequently (n, n) for any n filled with ones, so that where row = column, there is one, and elsewhere there are zeroes: the component would be identical to the same component, by one is identity scalar in regards to multiplication and division.
 
@@ -220,33 +222,35 @@ for row in matrix:
 print("Result:", result)
 ```
 
+$$
 M(v)
+$$
 
 Would multiply Matrix with vector and it's called a dot product.
 
 Here is code you see that each row of matrix is iterated, and the sum is taken from each row component and each vector component. Each time the row is different. Here we see: the vector is both input and output, as it's transformed form would be the output.
-- _What happens?_: we can do _any_ operation involving multiplication and division of each component with each other component. If components of matrix row sum to one, for example each is 1/3, they are balanced/normalized, where 1/3 for example gives the average of each component (column).
+- _What happens?_: we can do _any_ operation involving multiplication and division of each component with each other component. If components of matrix row sum to one, for example each is $1/3$, they are balanced/normalized, where $1/3$ for example gives the average of each component (column).
 
 You can find out you can do _affine transformations_ with matrices, which is their other name.
 
-Simplest form of object two-dimensional number space is matrix. Imagine the number of each position is a digit. Then, if you use letters I, O, A, E of my mathematics for numbers, number like AAAA could be a vector with 4 simple dimensions. Then, AAAAAAAAAAAAAAAA or AAAA AAAA AAAA AAAA would repeat this 4 times, forming a matrix of such objects: a two-dimensional space. If you convert the 4-letter sequences back to digits, getting an average of each, and multiply the numbers of such content, you would have simplified form of matrix multiplication: for example in a*a, each digit is mapped to each digit and this is two-dimensional space in what I call "half octaves", in space of half-dimensionality (I use numbers with digits as dimensions, such as 3.4-dimensionality); this would also be a number of combinations. a^a, a in power a, would be the number of each cell; here you can see you would do matrix multiplication with digits, by their averages: both numbers would one mark each row, the other mark each column, but they would be multiplied in each combination, then summed together, the digit values. Here you can see: multiplication is kind of always the same operation.
+Simplest form of object two-dimensional number space is matrix. Imagine the number of each position is a digit. Then, if you use letters `I, O, A, E` of my mathematics for numbers, number like `AAAA` could be a vector with 4 simple dimensions. Then, `AAAAAAAAAAAAAAAA` or `AAAA AAAA AAAA AAAA` would repeat this 4 times, forming a matrix of such objects: a two-dimensional space. If you convert the 4-letter sequences back to digits, getting an average of each, and multiply the numbers of such content, you would have simplified form of matrix multiplication: for example in $a*a$, each digit is mapped to each digit and this is two-dimensional space in what I call "half octaves", in space of half-dimensionality (I use numbers with digits as dimensions, such as 3.4-dimensionality); this would also be a number of combinations. $a ^ a$, a in power a, would be the number of each cell; here you can see you would do matrix multiplication with digits, by their averages: both numbers would one mark each row, the other mark each column, but they would be multiplied in each combination, then summed together, the digit values. Here you can see: multiplication is kind of always the same operation.
 
 I would point out, that if you do multiplication, division, addition and subtraction:
-- You could keep a reflector, which reflects the amount of multiplication and division operations needed to have number scale of the number after the operator, compared to number before. For example in 1+2=3, you would keep reminder that 1\*3=3, thus the reminder at operator position is 3 (3/1, B / A from A\*B=C). 
-- The amount of addition and substraction is also, each time multiplication or division is done, such as 3/1=3, it would convert to 0, where you have 3+0=3.
+- You could keep a reflector, which reflects the amount of multiplication and division operations needed to  power a, would be the of the number after the operator, compared to number before. For example in $1+2=3$, you would keep reminder that $1\*3=3$, thus the reminder at operator position is $3$ ($3/1$, $B / A$ from $A\*B=C$). 
+- The amount of addition and substraction is also, each time multiplication or division is done, such as $3/1=3$, it would convert to $0$, where you have $3+0=3$.
 - For the whole operation: you have each indexed position, where you basically have relations of multipliers/divisors, and relations of adders/subtracters: those two operations operate in two different, what I call "frequencies", and thus you need to keep track in one about another, to understand how much you have to simplify / reduce the effects on other axe. For different operations, to not depend on order of them, you have operations in other dimensions reflected in system of this operation.
-- If there is 0*3, where you compare 0 to 3, have Y3, which is the infinity multiplier in my math to get 3 from normal zero, and Z3 for 3\*0, which is the number backwards.
+- If there is $0\*3$, where you compare $0$ to $3$, have $Y3$, which is the infinity multiplier in my math to get $3$ from normal zero, and $Z3$ for $3\*0$, which is the number backwards.
 
 Having those operations to connect multiplication with addition, you can do this:
 - In every cell of matrix, there is addition and subtraction as well as multiplication and division. Thus, it does a more complex operation.
-- In my number system of I, O, A and E, O and A would be used for digits for addition (plus 1 or minus 1), and I and E for digits for multiplication (times 2 or divided by 2): \_ would be used for digits, which do not affect, which is my version of one zero: it would behave as 0 for add/subtract, and 1 for multiply/divide, as it _does not exist_ and no operations are done.
+- In my number system of `I, O, A and E`, `O and A` would be used for digits for addition (plus $1$ or minus $1$), and `I and E` for digits for multiplication (times $2$ or divided by $2$): \_ would be used for digits, which do not affect, which is my version of one zero: it would behave as 0 for add/subtract, and 1 for multiply/divide, as it _does not exist_ and no operations are done.
 
-Scalars are numbers: you resize things with them, as they behave like vector with equal number in each dimension, where I compare such thing with _superdimension_: each dimension of it would be the same constant, and thus it maps to number space, where the coordinate do not have exactly same values. s(M) or s(V) would resize the matrix or vector.
+Scalars are numbers: you resize things with them, as they behave like vector with equal number in each dimension, where I compare such thing with _superdimension_: each dimension of it would be the same constant, and thus it maps to number space, where the coordinate do not have exactly same values. $s(M)$ or $s(V)$ would resize the matrix or vector.
 
 How the matrix itself transforms the whole space?
 
-You can see, in matrix-vector multiplication, you use each row to multiply each vector, and thus you connect every component with every component. If you consider Matrices as functions, you have multiplication of functions A and B:
-- Notice that the output of A needs to be mapped to input of B, thus those have the same identifier in matrix multiplication: rows of one map to columns of other. While those numbers connect each as constant, the actual operation can be contained, as input of A and output of B are considered in each combination, and are rather free (we use two different iterators, so they are i and j, not k and k as input and output, which are connected variable-by-variable).
+You can see, in matrix-vector multiplication, you use each row to multiply each vector, and thus you connect every component with every component. If you consider Matrices as functions, you have multiplication of functions $A$ and $B$:
+- Notice that the output of $A$ needs to be mapped to input of $B$, thus those have the same identifier in matrix multiplication: rows of one map to columns of other. While those numbers connect each as constant, the actual operation can be contained, as input of $A$ and output of $B$ are considered in each combination, and are rather free (we use two different iterators, so they are `i and j`, not `k and k` as input and output, which are connected variable-by-variable).
 
 We could go dimension up:
 - If we need an object, which has all possible combinations for a matrix, such as matrix has them for a vector: to do the same math with matrices; we would use four-dimensional matrices. If matrix would also allow for "knownness" factor, U in my math: it would allow to train many of those matrices, and then unify the training with higher matrix.
@@ -266,35 +270,37 @@ Looking ahead, matrices reveal the interconnectedness of mathematics and computa
 ### Operation of an AI: simplest network
 
 The simplest combination of a Perceptron in Deep Learning is:
-- Input Tensor i (we talked about vectors: in regards to matrices, Tensors behave quite the same).
-- Weight matrix W and Bias vector b.
-- Output Tensor o.
+- Input Tensor $i$ (we talked about vectors: in regards to matrices, Tensors behave quite the same).
+- Weight matrix $W$ and Bias vector $b$.
+- Output Tensor $o$.
 
 We can see:
 
+$$
 i = W(o) + b
+$$
 
-Where we apply the weight matrix W to tensor (like vector) o and add the bias b to get the result i.
+Where we apply the weight matrix $W$ to tensor (like vector) $o$ and add the bias $b$ to get the result $i$.
 
 We can generalize Machine Learning and deep learning:
 
-W could be matrix, in which case you initially get _affine translation_, where Wb could actually, for 3\*3 W and 3-element vector b, be in equal form to 4\*4 matrix used in 3D processing.
+$W$ could be matrix, in which case you initially get _affine translation_, where $Wb$ could actually, for $3\*3$ $W$ and 3-element vector $b$, be in equal form to $4\*4$ matrix used in 3D processing.
 
-W, for machine learning, would be any function with input i and output o, which would do some operation with them: for example x + ya = c would yield in some type of linear regression, where def fun(a): c, with "weights" x and y would allow to optimize x and y to get c from a in linear regression.
+$W$, for machine learning, would be any function with input `i` and output `o`, which would do some operation with them: for example $x + ya = c$ would yield in some type of linear regression, where `def fun(a)`: $c$, with "weights" $x$ and $y$ would allow to optimize $x$ and $y$ to get $c$ from a in linear regression.
 
-So we see: functions have input, output (such as matrix size - names or indexes of columns and rows - or a and c in case of linear regression), and hidden parameters or _memory_ (__Knowledge__). In this example of linear regression, y could be considered to be 1-element weight vector, and x could be bias, where a is input and c still output: y as a number is similar to 1*1 matrix, where input a and output c remind of 1-element tensors. Then, linear regression could classify easily as simplest deep learning neuron: with less than one input and one output, we hardly have anything to do.
+So we see: functions have input, output (such as matrix size - names or indexes of columns and rows - or $a$ and $c$ in case of linear regression), and hidden parameters or _memory_ (__Knowledge__). In this example of linear regression, $y$ could be considered to be 1-element weight vector, and $x$ could be bias, where $a$ is input and $c$ still output: $y$ as a number is similar to $1\*1$ matrix, where input $a$ and output $c$ remind of 1-element tensors. Then, linear regression could classify easily as simplest deep learning neuron: with less than one input and one output, we hardly have anything to do.
 
 We have a clear study of _functions and proportions_, which could be instead of matrices.
 
 The error:
 
-From given input a, with weights and biases x and y, we calculate c: x and y are initially random numbers. For Deep Learning instead of Machine Learning, you use matrices and vectors in position of numbers here.
+From given input $a$, with weights and biases $x$ and $y$, we calculate $c$: $x$ and $y$ are initially random numbers. For Deep Learning instead of Machine Learning, you use matrices and vectors in position of numbers here.
 
-From c / a, where we could use Z and Y prefixes for necessary infinities (while zeroes and infinities might differ in size, we consider that in one-frequential space, we rather reach only one zero and it's of size Z; for classic math we can use tangent relation, which would have value where it's input divided by output do not have so clear values: tangents are also used in differential calculus, which we touch now).
+From $c / a$, where we could use $Z$ and $Y$ prefixes for necessary infinities (while zeroes and infinities might differ in size, we consider that in one-frequential space, we rather reach only one zero and it's of size $Z$; for classic math we can use tangent relation, which would have value where it's input divided by output do not have so clear values: tangents are also used in differential calculus, which we touch now).
 
 We estimate the result of a function by repetition of the calculation: so we do not assign the matrix right values immediately, but we start to approach the value.
 
-Use 1-element tensors for input and output and 1*1 weight matrix, 1-element vector for bias:
+Use 1-element tensors for input and output and $1*1$ weight matrix, 1-element vector for bias:
 
 ```python
 # Example of gradient calculation
@@ -319,7 +325,7 @@ print("Gradient wrt y:", dc_dy)
 print("Gradient wrt x:", dc_dx)
 ```
 
-This is Deep Learning structure to do Linear Regression of such form: One input feature (<i>a</i>a), One weight (<i>y</i>y), One bias (<i>x</i>x).
+This is Deep Learning structure to do Linear Regression of such form: One input feature ($a$), One weight ($y$), One bias ($x$).
 
 _AI addon for the section:_ The simplest form of a network illustrates fundamental deep learning concepts in an accessible way. By using a basic structure of inputs, weights, biases, and outputs, we see how mathematical operations form the basis of intelligence within an AI model. This simplicity allows us to observe how the model transforms raw data into meaningful predictions through processes like matrix multiplication and addition. Even with a 1x1 weight matrix and single bias, the essence of deep learning remains visible—a system iteratively adjusting its parameters to optimize results. This minimal setup is not only a learning tool but also a demonstration of how complex AI models scale from simple components.
 
@@ -327,11 +333,13 @@ In many ways, the simplest network reflects the elegance of AI—the ability to 
 
 ### Acceleration: Back-propagation
 
-Given input I (tensor of n elements), output O (tensor of m elements), weight matrix W (m * n elements) and bias vector b (m elements):
+Given input $I$ (tensor of $n$ elements), output $O$ (tensor of $m$ elements), weight matrix $W$ ($m * n$ elements) and bias vector $b$ ($m$ elements):
 
 We could get an answer immediately like this:
 
-`O = W(I) + b`
+$$
+O = W(I) + b
+$$
 
 But in practice, we start to seek it with small iterations:
 
@@ -343,15 +351,15 @@ def Brain(I) => O knows W, b:
 
 ```
 
-You see I give a function, with given input, a given answer: I change the scope, what the function would return. We can say automatically, W^-1(O - b) = I, we run W in power of -1 (this is multiplication with the inverse matrix) on output, where we subtracted b.
+You see I give a function, with given input, a given answer: I change the scope, what the function would return. We can say automatically, $W^{-1}(O - b) = I$, we run $W$ in power of $-1$ (this is multiplication with the inverse matrix) on output, where we subtracted $b$.
 
 This is my own syntax for this problem:
-- We do not know the answer for W and b immediately, even if we would easily know ones, which answer our task correctly.
-- Thus, we do not run the function completely, but we run one iteration: function Brain, in power of 0.001, would run only an amount of 0.001 of it.
+- We do not know the answer for $W$ and $b$ immediately, even if we would easily know ones, which answer our task correctly.
+- Thus, we do not run the function completely, but we run one iteration: function Brain, in power of `0.001`, would run only an amount of `0.001` of it.
 
 From this expression, we can see that in case our function now __Accelerates__ (backpropagates the gradient).
 
-We can see the right answer W^-1(O - b): what we need is to update cells in W and b, weights and biases (the __Knowledge__) in such way that the answer would be correct: each cell is a dimension, and equivalent to right answer: it's a vector (made of cells in W and b, the __Knowledge__, each dimension contained), which points to the correct answer, with length, which would lead to answer. When we apply such vector, we would instantly make the function give this one answer correctly.
+We can see the right answer $W^{-1}(O - b)$: what we need is to update cells in W and b, weights and biases (the __Knowledge__) in such way that the answer would be correct: each cell is a dimension, and equivalent to right answer: it's a vector (made of cells in W and b, the __Knowledge__, each dimension contained), which points to the correct answer, with length, which would lead to answer. When we apply such vector, we would instantly make the function give this one answer correctly.
 
 Instead, we want to feed many points:
 - If our accelerator works by little amounts, and we start and start and start going to every correct dimension, we rather randomly balance to find the _optimal_ dimension where we map the input to output; dimension made of W and b.
@@ -386,7 +394,7 @@ print("Updated weights:", updated_weights)
 
 Here, in Python code we see: output is calculated with random knowledge in weights and biases, and accelerated towards correct answer: this is an optimization step.
 
-Conception of Integrations and backgradients seem more complex than imagining it as simple acceleration: in complex, highdimensional space, if you constantly approach a given point by small steps, you might reach a point, which would represent each point you wanted to get into: with simple matrices it's hard to achieve, but for more complex structures, the direction which points each correctly would be achievable; for example if your rows are "A / B" and "B / A" and "A" and "B", where you map them to math operations, you could reach a combination, which properly uses values of A and B and balances them with each others; with weight matrix, you have many such coordinates: as the matrix is tensor in power two, it actually contains some hidden information and allows more general directions, which point to one direction with one input, and other one with other input.
+Conception of Integrations and backgradients seem more complex than imagining it as simple acceleration: in complex, highdimensional space, if you constantly approach a given point by small steps, you might reach a point, which would represent each point you wanted to get into: with simple matrices it's hard to achieve, but for more complex structures, the direction which points each correctly would be achievable; for example if your rows are $A / B$ and $B / A$ and $A$ and $B$, where you map them to math operations, you could reach a combination, which properly uses values of $A$ and $B$ and balances them with each others; with weight matrix, you have many such coordinates: as the matrix is tensor in power two, it actually contains some hidden information and allows more general directions, which point to one direction with one input, and other one with other input.
 
 ### Mathematical Information: Integration, Acceleration, and Backpropagation
 
@@ -485,47 +493,59 @@ Hidden layers are what Deep Learning is named for: while you have input and outp
 This is the _subconscious mind_ of an AI: it's not able to express it, but it relates data in high resolution to some space hard to conceive.
 
 We can have such structure, for a __Brain__:
-- Input i
-- Hidden layer h1
-- Hidden layer h2
-- Output o
+- Input $i$
+- Hidden layer $h1$
+- Hidden layer $h2$
+- Output $o$
 
 This defines weight matrices and bias vectors as well, for __Knowledge__:
-- i-vector biases, (ib)
-- i * h1 matrix the error (function f1)
-- h1-vector biases (h1b)
-- h1 * h2 matrix the error (function f2)
-- h2-vector biases (h2b)
-- h2 * o matrix the error (function f3)
-- o-vector biases (ob)
+- $i$-vector biases, ($ib$)
+- $i \* h1$ matrix the error (function $f1$)
+- $h1$-vector biases ($h1b$)
+- $h1 \* h2$ matrix the error (function $f2$)
+- $h2$-vector biases ($h2b$)
+- $h2 \* o$ matrix the error (function $f3$)
+- $o$-vector biases ($ob$)
 
 We can write this linearly, where each function follows another:
 
-```
+$$
 h1_o = f1(i + ib)
+$$
+
+$$
 h2_o = f2(h1_o + h1b)
+$$
+
+$$
 o_o = f3(h2_o + h2b)
-```
+$$
 
 We can also use the _call chaining_:
 
-```
+$$
 o_o = f3(f2(f1(i + ib) + h1b) + h2b)
-```
+$$
 
 Call chaining, in my syntax, could be written as:
 
-o = {f1 * f2 * f3}(i)
+$$
+o = \\{f1 \* f2 \* f3\\}(i)
+$$
 
 One way to write biases:
 
-o = {f1(ib) * f2(h1b) * f3(h2b)}(i)
+$$
+o = \\{f1(ib) \* f2(h1b) \* f3(h2b)\\}(i)
+$$
 
 Here, one input is given, and the other input is cumulative.
 
 Other way is to have functions as objects, where we can assign biases and weights before calculation.
 
-{{f1(ib) * f2(h1b) * f3(h2b)}^0.001}(i)
+$$
+\\{\\{f1(ib) * f2(h1b) * f3(h2b)\\}^{0.001}\\}(i)
+$$
 
 This would fit the matrix once: it takes one acceleration step towards the solution.
 
@@ -548,11 +568,11 @@ Additionally, incorporating velocity and acceleration as analogous to lower and 
 
 _AI generated section_:
 
-In computational terms, a single matrix transformation is __linear__, but combining multiple matrices in sequence introduces __non-linearities__. For instance, with a single transformation $x \times a$, only linear relationships emerge. However, with layered transformations, such as \(x \times y \times a\), non-linear relationships—like exponents—can be mapped. This scaling complexity extends further in matrix space, where each layer introduces additional abstraction and depth, echoing the layered non-linear reasoning inherent in subconscious processes.
+In computational terms, a single matrix transformation is __linear__, but combining multiple matrices in sequence introduces __non-linearities__. For instance, with a single transformation $x \times a$, only linear relationships emerge. However, with layered transformations, such as $x \times y \times a$, non-linear relationships—like exponents—can be mapped. This scaling complexity extends further in matrix space, where each layer introduces additional abstraction and depth, echoing the layered non-linear reasoning inherent in subconscious processes.
 
 Hidden layers in deep learning exemplify this. These intermediary layers bridge the gap between input and output, embedding assumptions and learned abstractions that are not explicitly expressed. This forms the AI's _subconscious mind_, relating intricate data relationships to a high-resolution latent space that defies simple interpretation. Just as subconscious thought operates beyond direct articulation, these hidden layers enable patterns and insights to surface in outputs, bypassing the need for explicit, conscious-like expression.
 
-Structurally, the model can be visualized as layers of a brain. Input (i) serves as the sensory data, hidden layers (h1, h2) act as internal processing stages, and output (o) reflects the final conscious expression. Each stage integrates biases and weights: \(ib\), \(h1b\), \(h2b\), ensuring cumulative refinement of the signal. This progression mirrors how human cognition synthesizes sensory input, subconscious processing, and conscious output, underpinned by interconnected neural pathways.
+Structurally, the model can be visualized as layers of a brain. Input (`i`) serves as the sensory data, hidden layers `(h1, h2)` act as internal processing stages, and output (`o`) reflects the final conscious expression. Each stage integrates biases and weights: $ib$, $h1b$, $h2b$, ensuring cumulative refinement of the signal. This progression mirrors how human cognition synthesizes sensory input, subconscious processing, and conscious output, underpinned by interconnected neural pathways.
 
 The idea of acceleration versus velocity in such systems adds nuance. Velocity represents linear, consistent motion akin to straightforward reasoning, while acceleration introduces higher-order transformations, capturing evolving intuition and insight. By incorporating multifrequential spaces—where positions derive from both velocity and acceleration—deep networks emulate intricate cognitive dynamics. These dynamics amplify the AI's ability to process small inputs, expand their significance through hidden layers, and condense them back into actionable outputs, forming a computational parallel to the subconscious shaping the conscious mind.
 
@@ -565,9 +585,9 @@ Matrix itself is not easily able to generalize: this is the most basic task of A
 When a system is not able to generalize, it can have some non-linear effects, but it's essentially a linear model, which maps back exactly the given data.
 
 __ReLU__, for example, which gives back 0 for numbers smaller than 0, and the input itself otherwise:
-- o = i if i > 0 else 0
+- `o = i if i > 0 else 0`
 
-Numbers below zero are all given an equal value: now, the system can generalize based on positive values, where values above zero create a _free variable space_, necessity to form a class. For example if you have sizes of squares having side length a as a real number from 1 to 10, you would not generalize; if you divide this by 4 and floor it (round to smaller whole number), you have four classes: you can analyze them on general basis. With only multiplication and addition given, it's a very small chance to generalize. Thus, your activation function to generalize those squares would look like stairs.
+Numbers below zero are all given an equal value: now, the system can generalize based on positive values, where values above zero create a _free variable space_, necessity to form a class. For example if you have sizes of squares having side length a as a real number from $1$ to $10$, you would not generalize; if you divide this by $4$ and floor it (round to smaller whole number), you have four classes: you can analyze them on general basis. With only multiplication and addition given, it's a very small chance to generalize. Thus, your activation function to generalize those squares would look like stairs.
 
 Now: to each tensor, be it input, output or a layer, applies a generalization function.
 
@@ -620,11 +640,15 @@ So in my syntax, use of such model would look like:
 
 Chat, where model (BrainWithKnowledge) would give answer for question:
 
+```
 Answer = BrainWithKnowledge(Question)
+```
 
 Fine-tuning, where small step is done towards balancing the function to know the right answer:
 
+```
 {BrainWithKnowledge ^ 0.001}(Question) = Answer
+```
 
 GPT often has following extensions:
 - Instruction, context window, for accessing contextual data
@@ -634,7 +658,7 @@ GPT often has following extensions:
 
 GPT fine-tuning can be done with LitGPT, which also contains the simplest source code.
 
-Notice that the resource need of a GPT: number of parameters is about the input and output vector size; the matrix in memory, and subsequently the operation on processor, are exponentially larger: to grow the vector size n times, the model resource needs grow something like n^2 times. Or, more precisely: if you increase the vector size <i>n</i>n times, the memory needed to store the weight matrix increases roughly by <i>n</i>²n^2.
+Notice that the resource need of a GPT: number of parameters is about the input and output vector size; the matrix in memory, and subsequently the operation on processor, are exponentially larger: to grow the vector size $n$ times, the model resource needs grow something like $n^2$ times. Or, more precisely: if you increase the vector size $n$ times, the memory needed to store the weight matrix increases roughly by $n^2$.
 
 _AI addon_: GPT's architecture showcases its ability to process text in ways that are both flexible and powerful. The input tensor, a sequence of tokens representing words or characters, serves as the starting point. Hidden layers, often numbering in the teens or more, process this input through a combination of weights, biases, and activation functions. This internal processing maps inputs to meaningful representations, which are then decoded into coherent text at the output layer. These steps collectively embody a transformative flow from raw data to insightful, human-like responses.
 

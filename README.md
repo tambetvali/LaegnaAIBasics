@@ -56,7 +56,7 @@ AI is made typically more or less in such way:
 
 _I asked AI_: how is step of exponential function related to square, where what follows would be level four, then sixteen etc.? Write an answer in one paragraph.
 
-_AI answered_: The step of an exponential function relates to squaring in that it compounds values progressively by multiplying the base repeatedly, leading to rapid growth. For instance, when you square a number (e.g., \( 2^2 = 4 \)), you’re effectively exponentiating it to the second power. Following this logic iteratively as an exponential sequence, the next step, such as raising \( 2 \) to the fourth power (\( 2^{(2^2)} = 2^4 = 16 \)), demonstrates an accelerated growth curve, where each subsequent level is a further exponentiation of the result. This compounding relationship causes exponential functions to outpace polynomial growth significantly as the steps increase, showcasing their mathematical intensity. It's as though squaring is the foundational step, and exponential operations iterate and amplify it with each level.
+_AI answered_: The step of an exponential function relates to squaring in that it compounds values progressively by multiplying the base repeatedly, leading to rapid growth. For instance, when you square a number (e.g., $2^2 = 4$), you’re effectively exponentiating it to the second power. Following this logic iteratively as an exponential sequence, the next step, such as raising $2$ to the fourth power ($2^{(2^2)} = 2^4 = 16$), demonstrates an accelerated growth curve, where each subsequent level is a further exponentiation of the result. This compounding relationship causes exponential functions to outpace polynomial growth significantly as the steps increase, showcasing their mathematical intensity. It's as though squaring is the foundational step, and exponential operations iterate and amplify it with each level.
 
 ## DL (deep learning) AI (artificial intelligence) inside: how it works
 
@@ -403,7 +403,7 @@ W_{new} = W_{old} - \eta \int \frac{\partial L}{\partial W} dt,
 $$
 
 
-where \( \eta \) is the learning rate, \( \frac{\partial L}{\partial W} \) is the gradient of the loss with respect to the weights, and \( dt \) represents the small time step or iteration.
+where $\eta$ is the learning rate, $\frac{\partial L}{\partial W}$ is the gradient of the loss with respect to the weights, and $dt$ represents the small time step or iteration.
 
 #### Backgradient and Acceleration
 The backgradient in deep learning resembles acceleration in physics in that it influences the direction and magnitude of updates towards the solution:
@@ -413,7 +413,7 @@ The backgradient in deep learning resembles acceleration in physics in that it i
 Acceleration is better than velocity because it accounts for changes in curvature, ensuring that updates move towards the solution more effectively by adapting to the landscape of the loss function.
 
 #### 3D Projection Matrix and Acceleration
-A \( 4 \times 4 \) projection matrix (often used in 3D transformations) can encode weights and biases for mapping points from an absolute position in world space to a relative position in view space. If the matrix is "accelerated" towards the correct dimension using iterative optimization, it will adjust itself to more accurately project input points to output points. The scale of this adjustment reflects the differential from previous updates—similar to acceleration in physics.
+A $4 \times 4$ projection matrix (often used in 3D transformations) can encode weights and biases for mapping points from an absolute position in world space to a relative position in view space. If the matrix is "accelerated" towards the correct dimension using iterative optimization, it will adjust itself to more accurately project input points to output points. The scale of this adjustment reflects the differential from previous updates—similar to acceleration in physics.
 
 Given the projection:
 
@@ -423,7 +423,7 @@ P = W \cdot I + b,
 $$
 
 
-where \( P \) is the projected output, \( I \) is the input position, \( W \) is the weight matrix, and \( b \) is the bias vector, the iteration process refines \( W \) and \( b \) to reduce error across changing input-output pairs.
+where $P$ is the projected output, $I$ is the input position, $W$ is the weight matrix, and $b$ is the bias vector, the iteration process refines $W$ and $b$ to reduce error across changing input-output pairs.
 
 #### Physics Analogy
 In physics, acceleration involves adjusting a large body's velocity so it moves toward the optimal configuration relative to smaller bodies around it. Similarly, in AI:
@@ -438,7 +438,7 @@ a = \frac{d^2 x}{dt^2},
 $$
 
 
-where \( x \) is the position. In deep learning, the Hessian matrix plays the role of second-order derivatives, refining the parameter updates akin to acceleration.
+where $x$ is the position. In deep learning, the Hessian matrix plays the role of second-order derivatives, refining the parameter updates akin to acceleration.
 
 #### Conclusion
 Both in physics and AI, the concept of acceleration captures the idea of adapting and improving movement towards a goal. In AI, acceleration ensures smoother convergence during optimization, while in physics, it governs the dynamics of objects moving in space. The shared mathematical foundation—differential calculus—illustrates how these concepts align.
@@ -548,7 +548,7 @@ Additionally, incorporating velocity and acceleration as analogous to lower and 
 
 _AI generated section_:
 
-In computational terms, a single matrix transformation is __linear__, but combining multiple matrices in sequence introduces __non-linearities__. For instance, with a single transformation \(x \times a\), only linear relationships emerge. However, with layered transformations, such as \(x \times y \times a\), non-linear relationships—like exponents—can be mapped. This scaling complexity extends further in matrix space, where each layer introduces additional abstraction and depth, echoing the layered non-linear reasoning inherent in subconscious processes.
+In computational terms, a single matrix transformation is __linear__, but combining multiple matrices in sequence introduces __non-linearities__. For instance, with a single transformation $x \times a$, only linear relationships emerge. However, with layered transformations, such as \(x \times y \times a\), non-linear relationships—like exponents—can be mapped. This scaling complexity extends further in matrix space, where each layer introduces additional abstraction and depth, echoing the layered non-linear reasoning inherent in subconscious processes.
 
 Hidden layers in deep learning exemplify this. These intermediary layers bridge the gap between input and output, embedding assumptions and learned abstractions that are not explicitly expressed. This forms the AI's _subconscious mind_, relating intricate data relationships to a high-resolution latent space that defies simple interpretation. Just as subconscious thought operates beyond direct articulation, these hidden layers enable patterns and insights to surface in outputs, bypassing the need for explicit, conscious-like expression.
 

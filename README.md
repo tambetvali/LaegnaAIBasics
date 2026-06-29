@@ -398,9 +398,9 @@ Deep learning training relies on optimization, which involves minimizing a loss 
 Formally:
 
 
-\[
+$$
 W_{new} = W_{old} - \eta \int \frac{\partial L}{\partial W} dt,
-\]
+$$
 
 
 where \( \eta \) is the learning rate, \( \frac{\partial L}{\partial W} \) is the gradient of the loss with respect to the weights, and \( dt \) represents the small time step or iteration.
@@ -418,9 +418,9 @@ A \( 4 \times 4 \) projection matrix (often used in 3D transformations) can enco
 Given the projection:
 
 
-\[
+$$
 P = W \cdot I + b,
-\]
+$$
 
 
 where \( P \) is the projected output, \( I \) is the input position, \( W \) is the weight matrix, and \( b \) is the bias vector, the iteration process refines \( W \) and \( b \) to reduce error across changing input-output pairs.
@@ -433,9 +433,9 @@ In physics, acceleration involves adjusting a large body's velocity so it moves 
 The formulas in both cases share similarities, as acceleration involves higher-order derivatives:
 
 
-\[
+$$
 a = \frac{d^2 x}{dt^2},
-\]
+$$
 
 
 where \( x \) is the position. In deep learning, the Hessian matrix plays the role of second-order derivatives, refining the parameter updates akin to acceleration.

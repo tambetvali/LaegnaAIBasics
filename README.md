@@ -18,8 +18,12 @@
 </p>
 
 <p align="center" style="max-width:600px; margin:auto; font-size:14px; color:#555;">
-  This interactive Mentimeter presentation explores the relationship between causes and their underlying reasons, helping you visualize how ideas connect and evolve. Use it as a companion tool while reading this document.
+  This interactive Mentimeter presentation explores the <i>relationship between causes and their underlying reasons</i>, <i>helping you visualize how ideas connect and evolve</i>. Use it as a companion tool while reading this document.
 </p>
+
+---
+
+![CauseReasonGateway_0](Rooted/Images1/LaegnaAIBasics.png)
 
 # AI theory with some of my Laegna mathematical ideas
 
